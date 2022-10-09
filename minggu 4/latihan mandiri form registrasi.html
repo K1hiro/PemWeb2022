@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrasi</title>
+    </head>
+    <body>
+        <form action="contact.php" Method="POST"></form>
+         <fieldset>
+            <legend>Registrasi</legend>
+            <p>
+                <Label>Nama:</Label>
+                <input type="text" name="nama" placeholder="nama">
+            </p>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="username">
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="text" name="password" placeholder="password">
+            </p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <label><input type="radio" name="jenis kelamin" value="Laki-Laki"/> laki-laki</label>
+                <label><input type="radio" name="jenis kelamin" value="Perempuan"/> Perempuan</label>
+            </p>
+            <p>
+                <label>Agama:</label>
+                <select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+                <label>Biografi:</label>
+                <textarea name="biografi"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="daftar"/>
+            </p>
+        </fieldset>
+        </form>
+    </body>
+</html>
